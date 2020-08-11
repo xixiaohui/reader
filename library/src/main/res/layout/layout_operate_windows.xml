@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_operate_window"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/tv_copy"
+        android:text="@string/copy"
+        style="@style/OperateTextView"/>
+
+    <TextView
+        android:id="@+id/tv_select_all"
+        android:text="@string/select_all"
+        style="@style/OperateTextView"/>
+
+    <TextView
+        android:id="@+id/tv_draw_line"
+        android:text="@string/draw_line"
+        style="@style/OperateTextView"/>
+
+    <TextView
+        android:id="@+id/tv_draw_background"
+        android:text="@string/draw_background"
+        style="@style/OperateTextView"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_write_think"-->
+<!--        android:text="@string/write_think"-->
+<!--        style="@style/OperateTextView"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_share"-->
+<!--        android:text="@string/share"-->
+<!--        style="@style/OperateTextView"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/tv_make_shuqian"-->
+<!--        android:text="@string/make_shuqian"-->
+<!--        style="@style/OperateTextView"/>-->
+
+</LinearLayout>
