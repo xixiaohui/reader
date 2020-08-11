@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:background="@drawable/shape"
+    android:minHeight="360dp"
+    android:divider="@drawable/divider"
+    android:showDividers="end"
+    android:dividerPadding="1.5dp"
+    android:padding="@dimen/poetry_padding"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/notosemibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_size"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/author"
+        style="@style/xiaowei"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/author_size"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/notoregular"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:maxLength="@integer/text_count"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        android:textIsSelectable="true"/>
+
+
+
+</LinearLayout>
